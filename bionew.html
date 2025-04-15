@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biodata Pribadi</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #f0f0f0, #ffffff);
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .header {
+      background: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      margin-top: -75px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .content {
+      padding: 30px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+      color: #4CAF50;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "✔️ ";
+      color: #4CAF50;
+    }
+
+    @media (max-width: 600px) {
+      .profile-img {
+        width: 120px;
+        height: 120px;
+        margin-top: -60px;
+      }
+
+      .content {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Nama Anda</h1>
+      <p>Web Developer | Freelancer | Kreatif</p>
+    </div>
+    <div style="text-align: center;">
+      <img src="https://via.placeholder.com/150" alt="Foto Profil" class="profile-img"/>
+    </div>
+    <div class="content">
+      <div class="section">
+        <h2>Biodata</h2>
+        <p><strong>Nama:</strong> Nama Anda</p>
+        <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
+        <p><strong>Alamat:</strong> Jakarta, Indonesia</p>
+        <p><strong>Email:</strong> email@example.com</p>
+        <p><strong>No. HP:</strong> 0812-3456-7890</p>
+      </div>
+
+      <div class="section">
+        <h2>Keahlian (Skills)</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Desain Grafis (Canva, Photoshop)</li>
+          <li>Manajemen Proyek</li>
+          <li>Public Speaking</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Pengalaman</h2>
+        <ul>
+          <li>Freelancer Web Developer (2023 - Sekarang)</li>
+          <li>Admin Perusahaan XYZ (2021 - 2023)</li>
+          <li>Asisten Event Organizer (2019 - 2021)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
